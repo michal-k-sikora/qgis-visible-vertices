@@ -1,0 +1,34 @@
+[general]
+name=Visible Vertices
+version=1.0.0
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+author=Michał Sikora
+homepage=https://github.com/michal-k-sikora/qgis-visible-vertices
+tracker=https://github.com/michal-k-sikora/qgis-visible-vertices/issues
+repository=https://github.com/michal-k-sikora/qgis-visible-vertices
+email=michal.k.sikora@gmail.com
+icon=icons/icon.svg
+category=Vector
+tags=vertices,vertex indices,line direction,snapping,digitizing,reference layers,geometry,overlay,wierzchołki,indeksy,kierunek linii,przyciąganie
+description=Show vertices, vertex indices and line directions for multiple vector layers, with separate display and snapping settings for each layer.
+about=EN: Visible Vertices displays vertices, vertex indices and line-direction arrows from multiple reference vector layers on the QGIS map canvas, independently of source-layer visibility and edit mode.
+
+ The user enables overlays for individual layers in a toolbar popup or dockable panel, chooses marker colors and shapes, and optionally limits the display to selected features. Vertex indices and line directions can be displayed independently of vertex markers.
+ The plugin also allows users to control native QGIS snapping for individual layers. Layer display settings are stored in the QGIS project.
+
+ PL: Visible Vertices wyświetla wierzchołki, ich indeksy i strzałki kierunku linii wielu referencyjnych warstw wektorowych na mapie QGIS, niezależnie od widoczności warstw źródłowych i trybu edycji.
+
+ Użytkownik włącza nakładki poszczególnych warstw w panelu rozwijanym z paska narzędzi lub panelu dokowalnym, wybiera kolory i kształty markerów oraz opcjonalnie ogranicza wyświetlanie do zaznaczonych obiektów. Indeksy i kierunki linii mogą być wyświetlane niezależnie od markerów wierzchołków.
+ Wtyczka pozwala też na sterowanie natywnym przyciąganiem QGIS dla poszczególnych warstw. Ustawienia wyświetlania warstw są przechowywane w projekcie QGIS.
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+plugin_type=python
+license=GPL-2.0
+changelog=
+ [EN] Version 1.0.0
+ * Initial release.
+
+ [PL] Wersja 1.0.0
+ * Pierwsze wydanie.
